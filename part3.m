@@ -6,7 +6,7 @@ X = 1100
 Y = 250
 
 % Work out minimum initial velocity
-u = sqrt(g) * sqrt(Y + sqrt(X^2 + Y^2)
+u = sqrt(g) * sqrt(Y + sqrt(X^2 + Y^2))
 
 % Make sure u is greater than min velocity
 u = u + 5
